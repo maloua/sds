@@ -24,7 +24,8 @@
     "clean": "rm -rf dist",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "test-storybook": "test-storybook"
+    "test-storybook": "test-storybook",
+    "publish": "npm version patch && npm publish --access public ./dist"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",
